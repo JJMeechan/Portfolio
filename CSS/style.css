@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background: #f3f5f9;
+    width: 80%;
+}
+
+header{
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color:#4b4276;
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+}
+header img{
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+header h2{
+    margin-bottom: 30px;
+}
+header p{
+    width: 90%;
+    margin: auto;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+header p a{
+    color: #fff;
+    text-decoration: underline;
+}
+
+nav ul{
+    margin:0;
+    padding: 0;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 15px 0 15px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-top: 1 px solid rgba(225,225,225,0.05);
+    width: 100%;
+
+}
+
+nav ul li a{
+    color: #bdb8d7;
+}
+
+nav ul li a .fas{
+    width: 25px;
+}
+
+nav ul li:hover{
+    background-color: #594f8d;
+}
+
+nav ul li a:hover{
+    color: #fff;
+}
+
+header #socials{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    margin-top: 50px;
+
+}
+
+header #socials a{
+    display: block;
+    width: 40px;
+    background: #594f8d;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 5px;
+    color: #bdb8d7;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
