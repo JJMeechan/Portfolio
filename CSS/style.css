@@ -10,12 +10,14 @@
 body{
     font-family: 'Josefin Sans', sans-serif;
     background: #f3f5f9;
-    width: 80%;
+    width: 77.5%;
 }
+
+/*sidebar starts*/
 
 header{
     height: 100%;
-    width: 20%;
+    width: 22.5%;
     position: fixed;
     top: 0;
     right: 0;
@@ -67,7 +69,7 @@ nav ul li a{
 }
 
 nav ul li a .fas{
-    width: 25px;
+    width: 30px;
 }
 
 nav ul li:hover{
@@ -89,13 +91,80 @@ header #socials{
 
 header #socials a{
     display: block;
-    width: 40px;
+    width: 50px;
     background: #594f8d;
-    height: 40px;
-    line-height: 40px;
+    height: 50px;
+    line-height: 60px;
     text-align: center;
     margin: 0 5px;
     color: #bdb8d7;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
+}
+
+/*sidebar ends*/
+
+/*main content starts*/
+#main{
+    width: 60%;
+    margin: auto;
+}
+
+#main h2{
+    font-size: 36px;
+    color: #777777;
+}
+
+#main p{
+    font-size: 20px;
+    color: #888888;
+    margin: 20px 0 20px 0;
+    line-height: 1.4;
+}
+
+#home{
+    min-height: 600px;
+    margin-top: 140px;
+}
+
+#home h1{
+    font-size: 56px;
+    color: #594f8d;
+    margin: 40px 0 40px 0;
+}
+
+#home h2{
+    margin-bottom: 40px;
+}
+
+#home p a{
+    text-decoration: underline;
+    color: #4b4276
+}
+
+#home p a:hover{
+    color: #bdb8d7;
+}
+
+#intro ul li{
+    font-size: 20px;
+    color: #888888;
+    padding: 30px 0 30px 0;
+    display: block;
+}
+
+#leftList,#rightList{
+    width: 45%;
+}
+
+#rightList{
+    float: right;
+}
+#leftList{
+    float: left;
+    margin-left: -45px;
+}
+
+.fa-square{
+    color:#594f8d;
 }
