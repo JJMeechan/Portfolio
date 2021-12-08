@@ -13,6 +13,10 @@ body{
     width: 77.5%;
 }
 
+section{
+    min-height: 600px;
+}
+
 /*sidebar starts*/
 
 header{
