@@ -10,11 +10,12 @@
 body{
     font-family: 'Josefin Sans', sans-serif;
     background: #f3f5f9;
-    width: 77.5%;
+    
 }
 
 section{
     min-height: 600px;
+    width: 77.5%;
 }
 
 /*sidebar starts*/
@@ -110,7 +111,7 @@ header #socials a{
 
 /*main content starts*/
 #main{
-    width: 60%;
+    width: 75%;
     margin: auto;
 }
 
@@ -171,4 +172,28 @@ header #socials a{
 
 .fa-square{
     color:#594f8d;
+}
+
+.box{
+
+    min-height: 250px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #594f8d;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+
+.box img{
+    min-width: 300px;
+    min-height: 200px;
+    max-width: 300px;
+    max-height: 200px;
+    margin: 25px 25px 25px 25px;
+}
+
+.box p{
+    width: 50%;
+    float: right;
+    margin: 25px 25px 25px 25px;
 }
