@@ -5,6 +5,7 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -107,6 +108,11 @@ header #socials a{
     border-top-left-radius: 5px;
 }
 
+#footer{
+    position: fixed;
+    bottom: 0;
+}
+
 /*sidebar ends*/
 
 /*main content starts*/
@@ -197,3 +203,5 @@ header #socials a{
     float: right;
     margin: 25px 25px 25px 25px;
 }
+
+/*main content ends*/
